@@ -16,7 +16,6 @@
 					<i class="icon-pencil edit-message"></i>
 				</span>
 				{{#if isEditing}}
-					{{> messagePopup popupEmojiConfig}} {{> messagePopup popupChannelConfig}} {{> messagePopup popupUserConfig}}
 					<textarea class="input-message-editing" contenteditable="true">{{message 'true'}}</textarea>
 				{{else}}
 					<div>
